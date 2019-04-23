@@ -1,4 +1,4 @@
-Suggested way for people to transition from individual learning code in own branches (or no branches) to integrating the code to the master:
+Suggested way for people to transition from individual learning code in own branches (or no branches) to integrating the code to the master:     (here 'mike' is an example name for a branch)
 
 1. Take your current edited files to safety, e.g. Desktop\stash\20181030 folder
 
@@ -8,8 +8,7 @@ Suggested way for people to transition from individual learning code in own bran
 
 4. /// Run both backend and frontend, test them, if needed, run npm install) = make the given ones work together before adding your work. ///
 
-5. Create your own branch with: *git checkout -b mike* or so, (other possibility would be per feature name, like idea_crud, idea_add, but for us your name might be best. Or
-e.g. mike_idea_add telling whose branch, and about what feature )
+5. Only when you really know what additions/fixes you will do, do a up-to-date *git pull* and then Create your own branch with: *git checkout -b mike* or so, (other possibility would be per feature name, like idea_list_all, idea_add, but for us your name might be best. Or e.g. mike_idea_add telling whose branch, and about what feature )
 
 6. Manually add changed files or codelines from you stash via file explorer
 
@@ -20,7 +19,7 @@ e.g. mike_idea_add telling whose branch, and about what feature )
 
 9. *git commit -m "Commit description here. Changes and fixes mentioned."*
 (To commit the changes to the local repo, current branch. Guidelines say
-commit )
+commit comments should be in present tense, not in past tense: 'Fix db settings', not 'db settings fixed')
 
 10. *git push -u origin mike*           (To share your work to others to see on GitHub, not yet to master branch. If/As you cloned from remote, remote should be configured fine)
 
@@ -37,14 +36,21 @@ Note: When you have now started to use common backend and common frontend as sta
 Note: running *git status* is not enough for knowing if the local repo branch is up-to-date with the remote repo version. This command will tell you something like ‘all up-to-date’ even if not true. Thus you actually do have to run *git pull* to really know if there are any updates available in the remote repo.
 
 Git documentation, e.g.
+
 https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html
+
 https://git-scm.com/docs 
+
 https://git-scm.com/book/en/v2
 
-https://www.git-tower.com/blog/git-cheat-sheet  (Cheat sheet of most common commands,
+https://www.git-tower.com/blog/git-cheat-sheet  
+(Cheat sheet of most common commands,
 some explanations a bit misleading though)
 
 GitHub.com documentation: 
+
 https://help.github.com/en/articles/github-glossary
+
 https://services.github.com/  
+
 (We are using GitHub.com as remote repo hosting cloud, but could use many other hosting services GitLab, BitBucket, MS TFS, ..., or even set up own remote server repo)
