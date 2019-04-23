@@ -36,14 +36,21 @@ Note: When you have now started to use common backend and common frontend as sta
 Note: running *git status* is not enough for knowing if the local repo branch is up-to-date with the remote repo version. This command will tell you something like ‘all up-to-date’ even if not true. Thus you actually do have to run *git pull* to really know if there are any updates available in the remote repo.
 
 Git documentation, e.g.
+
 https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html
+
 https://git-scm.com/docs 
+
 https://git-scm.com/book/en/v2
 
-https://www.git-tower.com/blog/git-cheat-sheet  (Cheat sheet of most common commands,
+https://www.git-tower.com/blog/git-cheat-sheet  
+(Cheat sheet of most common commands,
 some explanations a bit misleading though)
 
 GitHub.com documentation: 
+
 https://help.github.com/en/articles/github-glossary
+
 https://services.github.com/  
+
 (We are using GitHub.com as remote repo hosting cloud, but could use many other hosting services GitLab, BitBucket, MS TFS, ..., or even set up own remote server repo)
