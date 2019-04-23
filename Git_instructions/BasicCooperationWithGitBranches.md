@@ -8,7 +8,7 @@ Suggested way for people to transition from individual learning code in own bran
 
 4. /// Run both backend and frontend, test them, if needed, run npm install) = make the given ones work together before adding your work. ///
 
-5. Create your own branch with: *git checkout -b mike* or so, (other possibility would be per feature name, like idea_crud, idea_add, but for us your name might be best. Or
+5. Only when you really know what additions/fixes you will do, do a up-to-date *git pull* and then Create your own branch with: *git checkout -b mike* or so, (other possibility would be per feature name, like idea_crud, idea_add, but for us your name might be best. Or
 e.g. mike_idea_add telling whose branch, and about what feature )
 
 6. Manually add changed files or codelines from you stash via file explorer
