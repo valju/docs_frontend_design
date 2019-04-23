@@ -33,7 +33,7 @@ Deleting a pulled and merged branch is good signal for others, so they don't ass
 
 Note: When you have now started to use common backend and common frontend as starting point every day, you don't need to clone anymore. Just start the day by *git pull* in both back&front repo root folders + *git checkout -b mike*    on the one you work with, and so on.
 
-Note: running *git status* is not enough for knowing if the local repo branch is up-to-date with the remote repo version. This command will tell you something like ‘all up-to-date’ even if not true. Thus you actually do have to run *git pull* to really know if there are any updates available in the remote repo.
+Note: running *git status* is not enough for knowing if the local repo branch is up-to-date with the remote repo version. This command will tell you something like ‘Your branch is up to date with 'origin/master'.’ even if not true. Thus you actually do have to run *git pull* to really know if there are any updates available in the remote repo.
 
 Git documentation, e.g.
 
