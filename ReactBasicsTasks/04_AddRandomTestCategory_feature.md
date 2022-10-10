@@ -1,6 +1,6 @@
 1. You are adding code to your old frontend project (based on idea-short-demo = the given solution).
 
-(This task is meant to make the real add category feature easier to do! As some steps are skipped)
+    (This task is meant to make the real add category feature easier to do! As some steps are skipped)
 
 1. Add a ajax service called addCategory, that will get a category object and try to add it to the backend. It returns the id of the added category if success and null if failure.
 Now you naturally have to add the 'body' for the request, and as value have that JavaScrip category object be stringified/serialized as JSON text. And the method is naturally also _not_ 'GET'.
